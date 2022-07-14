@@ -15,8 +15,7 @@ const listIngredients = ingredients.map(ingridient => {
         newEl.classList.add('item')
   
   console.log(newEl);
-})
-  .join(" ")
+}).join(" ")
 
 mainList.append('li');
 
